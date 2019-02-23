@@ -34,8 +34,7 @@ public class Achievements {
 		while(i.hasNext()) {
 			String key = i.next();
 			text.put(key, new TextProperties((JSONObject) object.get(key)));
-		}
-		
+		}	
 	}
 	
 	public List<Achievement> getList() {
